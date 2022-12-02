@@ -1,0 +1,39 @@
+.container{
+    height: 100vh;
+    background-image: url("../Image/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+.box{
+    width: 40vw;
+    height: 80vh;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.title{
+    font-size: 40px;
+    color: #A0F113;
+    margin: 30px;
+       
+}
+
+
+.registration{
+    width: 80%;
+    height: 80%;
+    border: 2px solid red;
+}
