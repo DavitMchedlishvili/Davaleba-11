@@ -14,7 +14,7 @@
 .box{
     width: 40vw;
     height: 80vh;
-    background-color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(225, 225, 225, 0.3);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -35,5 +35,102 @@
 .registration{
     width: 80%;
     height: 80%;
-    border: 2px solid red;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+form{
+  
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+
+label{
+    color: #A0F113;
+}
+
+
+
+
+
+.typebox{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid #A0F113;
+}
+
+
+
+
+
+
+.genderbox{
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    
+
+}
+
+.metalbox{
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+
+
+.buttons{
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cancel{
+    background-color: red;
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.confirm{
+    background-color: green;
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
 }
