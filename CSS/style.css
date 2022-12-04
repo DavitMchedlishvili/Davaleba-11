@@ -55,6 +55,15 @@ form{
 }
 
 
+::placeholder{
+    color: black;
+}
+
+
+
+
+
+
 .inputbox{
     display: flex;
     flex-direction: column;
@@ -86,7 +95,6 @@ label{
 
 .genderbox{
     width: 80%;
-    
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
@@ -96,7 +104,6 @@ label{
 
 .metalbox{
     width: 80%;
-    
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
